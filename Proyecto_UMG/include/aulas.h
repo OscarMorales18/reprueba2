@@ -2,25 +2,24 @@
 #ifndef AULAS_H
 #define AULAS_H
 
-#include<stdlib.h>// Incluye funciones para el manejo de memoria dinamica, control de procesos y conversiones de cadena.
-#include<cstdlib>// Incluye funciones para el control de procesos y conversiones de cadena.
-#include<conio.h>// Incluye funciones para el manejo de la consola.
-#include<iomanip>// Incluye funciones para formatear la salida.
+#include<stdlib.h>
+#include<cstdlib>
+#include<conio.h>
+#include<iomanip>
+
+using namespace std;
 
 
-using namespace std;// Se utiliza el espacio de nombres estandar.
-
-// Definición de la estructura aulas que representa la información de un aula.
 struct aulas
 {
-    int codigo;// Código del aula.
-    char nombre [45];// Nombre del aula.
-    char estatus [1];// Estatus del aula.
+    int codigo;
+    char nombre [45];
+    char estatus [1];
 };
-// Definición de la clase AulasCRUD que proporciona mótodos para realizar operaciones CRUD en aulas.
+
 class AulasCRUD
 {
-    public:// Mótodos para realizar operaciones CRUD.
+    public:
         void IngresarAula();
         void ModificarAula();
         void BorrarAula();
@@ -31,4 +30,3 @@ class AulasCRUD
 };//fin de la clase aula
 
 #endif // AULAS_H
-

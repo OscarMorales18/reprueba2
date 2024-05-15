@@ -6,7 +6,6 @@
 #include<cstdlib>
 #include<conio.h>
 #include<iomanip>
-//Elaborado por: Cristian David Sipac Ispache 9959-23-1567
 
 using namespace std;
 
