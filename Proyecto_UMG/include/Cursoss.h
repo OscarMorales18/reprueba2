@@ -1,9 +1,6 @@
 #ifndef CURSOSS_H
 #define CURSOSS_H
-#include<stdlib.h>
-#include<cstdlib>
-#include<conio.h>
-#include<iomanip>
+
 
 using namespace std;
 
@@ -23,5 +20,4 @@ public:
     void CrudCursos();
 
 };
-
 #endif // CURSOSS_H

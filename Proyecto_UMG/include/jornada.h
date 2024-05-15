@@ -1,10 +1,6 @@
 #ifndef JORNADA_H
 #define JORNADA_H
-//blibliotecas
-#include<stdlib.h>
-#include<cstdlib>
-#include<conio.h>
-#include<iomanip>
+
 
 using namespace std;
 
